@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aula 01 - JavaScript</title>
+</head>
+<body>
+    <img src="img/SENAI_São_Paulo_logo.png" alt="Logo do SENAI" class="logo">
+
+    <h1>JavaScript</h1>
+    <p class="subtitle">Estrutura, Sintaxe e Regras do Jogo</p>
+
+    <div class="card">
+        <h3>Saudação</h3>
+        <input type="text" id="inputNome" placeholder="Digite seu nome...">
+        <button onclick="exibirSaudacao()">Executar JS</button>
+        <p id="mensagemSaudacao">O Resultado aparece aqui</p>
+    </div>
+    
+    <div class="card">
+        <h3>Calculadora</h3>
+        <div class="input-group">
+            <input type="number" id="num1" value="5">
+            <span>+</span>
+            <input type="number" id="num1" value="5">
+        </div>
+        
+        <button onclick="cacularSoma()">Executar JS</button>
+        <p id="resultadoSoma">Resultado: ?</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
